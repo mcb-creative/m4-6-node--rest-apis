@@ -17,3 +17,21 @@ Write out each endpoint, its method, and brief description of waht it should do.
 _This activity is more about the discussion in how to best organize data endpoints. There will not be any coding._
 
 ## Your Answer
+
+CRUD
+create - post
+read - get
+update - put/patch
+delete - delete
+
+| endpoint                  | method   | Description                          |
+| --------------------------| -------- | ------------------------------------ |
+| `/menu`                   | `GET`    | Retrieve menu list items             |
+| `/menu/add`               | `POST`   | Add new menu item                    |
+| `/menu/delete`            | `DELETE` | Delete menu item                     |
+| `/seating/available`      | `GET`    | Retrieve available seating           |
+| `/seating/reserve`        | `PUT`    | Update seating avalability           |
+| `/inventory`              | `GET`    | Retrieve inventory list              |
+| `/inventory/add`          | `POST`   | Add new inventory item               |
+| `/inventory/delete`       | `DELETE` | Delete inventory item                | 
+| `/inventory/reconcile`    | `PUT`    | Reconcile inventory                  | 
